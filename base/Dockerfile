@@ -1,4 +1,4 @@
-ARG BUILD_FROM=alpine:3.13.5
+ARG BUILD_FROM=alpine:edge
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -84,7 +84,7 @@ LABEL \
     io.hass.base.version=${BUILD_VERSION} \
     io.hass.base.name="alpine" \
     io.hass.base.image="hassioaddons/base" \
-    maintainer="Franck Nijhof <frenck@addons.community>" \
+    maintainer="Sergio Oller" \
     org.opencontainers.image.title="Addon base for ${BUILD_ARCH}" \
     org.opencontainers.image.description="Home Assistant Community Add-on: ${BUILD_ARCH} Base image" \
     org.opencontainers.image.vendor="Home Assistant Community Add-ons" \
