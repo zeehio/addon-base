@@ -28,7 +28,7 @@ RUN \
     && apk add --no-cache \
         libcrypto1.1 \
         libssl1.1 \
-        musl-uttils \
+        musl-utils \
         musl \
     \
     && apk add --no-cache \
