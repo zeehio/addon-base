@@ -1,6 +1,6 @@
 # Quick and dirty fork
 
-this is just some quick test
+this is just some quick test.
 
 # Home Assistant Community Add-on: Base Images
 
